@@ -1,0 +1,14 @@
+body {
+    background-color: saddlebrown;
+    font-family: "Gill Sans", sans-serif;
+    margin: 100px;
+    padding: 50px;
+}
+
+h1, p {
+    color: white;
+}
+
+img {
+    max-width: 500px;
+}
