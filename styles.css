@@ -1,14 +1,60 @@
-body {
-    background-color: saddlebrown;
-    font-family: "Gill Sans", sans-serif;
-    margin: 100px;
-    padding: 50px;
+
+@import url(https://fonts.googleapis.com/css2?family=Familjen+Grotesk&family=Roboto+Mono:ital@1&family=Shrikhand&display=swap);
+
+  
+.name {
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 150px;
 }
 
-h1, p {
-    color: white;
+.fill {
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 100px;
 }
 
-img {
-    max-width: 500px;
+
+.p1 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    align-self: flex-end;
+    bottom: 2%;
+    position: fixed;
+    font-size: 50px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-weight: normal;
+    margin-bottom: 10px;
 }
+
+.p2 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    bottom: 2%;
+    position: fixed;
+    font-size: 50px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.p3 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    align-self: flex-end;
+    bottom: 2%;
+    position: fixed;
+    font-size: 50px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+  
