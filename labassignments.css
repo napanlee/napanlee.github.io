@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Familjen+Grotesk&family=Roboto+Mono:ital@1&family=Shrikhand&display=swap);
 
-.introduction {
+.Assignment1 {
     font-family: "Familjen Grotesk", "sans-serif";
     font-size: 100px;
     text-align: center;
@@ -13,6 +13,18 @@
     
 }
 
+.Assignment2 {
+    font-family: "Familjen Grotesk", "sans-serif";
+    font-size: 100px;   
+    text-align: center;
+}
+
+.assignment2link {
+    font-family: "Familjen Grotesk", "sans-serif";
+    font-size: 40px;
+    text-align: center;
+    
+}
 
 .homepage {
     font-family: "Familjen Grotesk", "sans-serif";

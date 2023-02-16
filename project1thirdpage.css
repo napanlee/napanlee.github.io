@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk&family=Roboto+Mono:ital@1&family=Shrikhand&display=swap');
+
+#background-video {
+    width: 100vw;
+    height: 100xh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.fade-in-text1 {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 12px;
+    animation: fadeIn 5s;
+    margin-right: 30%;
+    color: white;
+  }
+
+.fade-in-text2 {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 18px;
+    animation: fadeIn 10s;
+    margin-right: 30%;
+    text-align: center;
+    color: white;
+}
+
+.fade-in-text3 {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 10px;
+    animation: fadeIn 15s;
+    margin-left: 75%;
+    text-align: right;
+    align-items: top;
+    top: 0;
+    color: white;
+}
+
+.fade-in-text4 {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 10px;
+    animation: fadeIn 20s;
+    align-items: left;
+    margin-right: 30%;
+    color: white;
+}
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

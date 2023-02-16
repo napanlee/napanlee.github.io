@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&family=Shrikhand&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    overflow: auto;
+    scroll-snap-type:mandatory ;
+}
+section {
+    height: 95vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 6vw;
+    color: rgb(232, 232, 232);
+    scroll-snap-align: start;
+}
+.wrapper section:nth-child(1) {
+    background-color:rgb(19, 19, 19) ;
+}
+
+.wrapper section:nth-child(2) {
+    background-color:rgb(19, 19, 19) ;
+}
+
+.wrapper section:nth-child(3) {
+    background-color:rgb(19, 19, 19) ;
+    font-size: 4vw;
+    text-align: center;
+    color: rgb(232, 232, 232);
+}
+
+.wrapper section:nth-child(4) {
+    background-color:rgb(19, 19, 19) ;
+    
+}
+
+button {
+    border-color: transparent;
+    font-family: "Roboto Mono", sans-serif;
+    background-color: transparent;
+    color: rgb(232, 232, 232);
+    font-size: large;
+}
