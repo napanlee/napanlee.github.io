@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Woodland-Ultralight';
+    src: url(fonts/Woodland-Ultralight.otf);
+  }
+
+  @font-face {
+    font-family: 'Mori-Semibold';
+    src: url(fonts/Mori-Semibold.otf);
+}
+
+.title {
+    font-family: "Mori-Semibold";
+    color: white;
+}
+
+.html {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left:0;top:0;right:0;bottom:0;
+}
+
+body {
+  background-color: hsl(0, 0%, 0%);
+  overflow: hidden;
+  font-family: 'Woodland-Ultralight';
+}
+
+p {
+  color: hsl(0, 0%, 100%);
+  font-size: 16px;
+  padding-left: 0%;
+  text-align: center;
+}
+
+.drophere {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  width: 760px;
+  height: 250px;
+  transform:translateY(20%);
+  position: relative;
+  font-family: 'Woodland-Ultralight';
+  
+}
+
+
+#left {
+  width: 500px;
+
+  border: 0;
+  display:inline-block;
+  position:relative;
+  height: 300px;
+  padding: 0px;
+
+}
+
+.dropme {
+
+  height: 24px;
+  width: 24px;
+  padding: 15px;
+  border-radius:30px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: none;
+  color: #555;
+  font-weight:bold;
+  text-align: center;
+  font-family: 'Woodland-Ultralight';
+  position: relative;
+  float: left;
+  background-color: white;
+
+}

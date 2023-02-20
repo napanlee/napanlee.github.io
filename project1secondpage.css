@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk&family=Roboto+Mono:ital@1&family=Shrikhand&display=swap');
+@font-face {
+    font-family: 'Woodland-Ultralight';
+    src: url(fonts/Woodland-Ultralight.otf);
+}
 
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Roboto Mono", sans-serif;
+    font-family: "Woodland-Ultralight";
+
 }
 
 h2{
@@ -17,13 +21,13 @@ h2{
 }
 
 h3 {
-    font-family: "Robot Mono", sans-serif;
+    font-family: "Woodland-Ultralight";
     color: white;
 }
 
 h2 {
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     cursor: default;
     text-align: center;
     padding-left: 10em;

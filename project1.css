@@ -1,51 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&family=Shrikhand&display=swap');
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@font-face {
+    font-family: 'Mori-Semibold';
+    src: url(fonts/Mori-Semibold.otf);
 }
 
-.wrapper {
-    display: flex;
-    overflow: auto;
-    scroll-snap-type:mandatory ;
+@font-face {
+    font-family: 'Woodland-Ultralight';
+    src: url(fonts/Woodland-Ultralight.otf);
 }
-section {
-    height: 95vh;
-    min-width: 100vw;
+
+
+#video {
+    width: 100vw;
+    height: 100xh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.title {
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Roboto Mono", sans-serif;
-    font-size: 6vw;
-    color: rgb(232, 232, 232);
-    scroll-snap-align: start;
-}
-.wrapper section:nth-child(1) {
-    background-color:rgb(19, 19, 19) ;
-}
-
-.wrapper section:nth-child(2) {
-    background-color:rgb(19, 19, 19) ;
-}
-
-.wrapper section:nth-child(3) {
-    background-color:rgb(19, 19, 19) ;
-    font-size: 4vw;
+    font-family: "Mori-Semibold";
+    font-size: 55px;
+    margin-top: 25%;
     text-align: center;
-    color: rgb(232, 232, 232);
-}
 
-.wrapper section:nth-child(4) {
-    background-color:rgb(19, 19, 19) ;
     
 }
+    
 
-button {
-    border-color: transparent;
-    font-family: "Roboto Mono", sans-serif;
-    background-color: transparent;
-    color: rgb(232, 232, 232);
-    font-size: large;
+
+.secondtitle {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Woodland-Ultralight";
+    font-size: 35px;
+    text-align: center;
+    
 }
