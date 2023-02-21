@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk&family=Roboto+Mono:ital@1&family=Shrikhand&display=swap');
+@font-face {
+  font-family: 'Woodland-Ultralight';
+  src: url(fonts/Woodland-Ultralight.otf);
+}
+
+@font-face {
+  font-family: 'Mori-Semibold';
+  src: url(fonts/Mori-Semibold.otf);
+}
+
+
+#background-video {
+    width: 100vw;
+    height: 100xh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.fade-in-text1 {
+    font-family: 'Woodland-Ultralight';
+    font-size: 22.5px;
+    animation: fadeIn 5s;
+    margin-left: 73%;
+    margin-right: 1%;
+    text-align: right;
+    color: white;
+  }
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .button1 {
+    padding: 12px 12px;
+    display: inline-block;
+    margin: 4px 4px;
+    text-align: right;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: "Mori-Semibold";
+    border: 1px solid #000000;
+    margin-left: 92.5%;
+    
+  }
+
+  .player {
+    margin-top: 8.5%;
+    display: flex;
+  }
+

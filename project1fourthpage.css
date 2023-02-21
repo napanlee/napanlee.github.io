@@ -75,3 +75,13 @@ p {
   background-color: white;
 
 }
+
+.link {
+  color: white;
+  font-family: "Mori-Semibold";
+  text-align: right;
+  display: flex;
+  justify-content: right;
+  margin-top: 31%;
+  margin-right: 1%;
+}

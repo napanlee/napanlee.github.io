@@ -4,6 +4,11 @@
   src: url(fonts/Woodland-Ultralight.otf);
 }
 
+  @font-face {
+    font-family: 'Mori-Semibold';
+    src: url(fonts/Mori-Semibold.otf);
+}
+
 
 .black {
     font-family: "Woodland-Ultralight";
@@ -76,6 +81,16 @@
     color: black;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 50%;
+  }
+
+  .link {
+    color: white;
+    font-family: "Mori-Semibold";
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    margin-top: -1.5%;
+    margin-right: 1%;
   }
   
   

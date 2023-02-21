@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'Woodland-Ultralight';
+    src: url(fonts/Woodland-Ultralight.otf);
+  }
+
+  @font-face {
+    font-family: 'Mori-Semibold';
+    src: url(fonts/Mori-Semibold.otf);
+  }
+
+body {
+    background-color: black;
+}
+
+  .text {
+    background-color: black;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 7%;
+  }
+
+
+.first {
+    color: transparent;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    font-size: 30px;
+    -webkit-transition: text-shadow 2.0 ease-out; 
+    -moz-transition: text-shadow 2.0 ease-out; 
+    -ms-transition: text-shadow 2.0 ease-out; 
+    -o-transition: text-shadow 2.0 ease-out; 
+    transition: text-shadow 2.0 ease-out;
+    font-family: "Woodland-Ultralight";
+    text-align: center;
+  }
+  .first:hover {
+    text-shadow: 0 0 0 rgb(255, 255, 255);
+    -webkit-transition: text-shadow 0.5s; 
+    -moz-transition: text-shadow 0.5s; 
+    -ms-transition: text-shadow 0.5s; 
+    -o-transition: text-shadow 0.5s; 
+    transition: text-shadow 0.5s;
+    cursor: default;
+  }
+
+  .second {
+    color: transparent;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    font-size: 30px;
+    -webkit-transition: text-shadow 2.0 ease-out; 
+    -moz-transition: text-shadow 2.0 ease-out; 
+    -ms-transition: text-shadow 2.0 ease-out; 
+    -o-transition: text-shadow 2.0 ease-out; 
+    transition: text-shadow 2.0 ease-out;
+    font-family: "Woodland-Ultralight";
+    text-align: center;
+  }
+  .second:hover {
+    text-shadow: 0 0 0 rgb(255, 255, 255);
+    -webkit-transition: text-shadow 0.5s; 
+    -moz-transition: text-shadow 0.5s; 
+    -ms-transition: text-shadow 0.5s; 
+    -o-transition: text-shadow 0.5s; 
+    transition: text-shadow 0.5s;
+    cursor: default;
+  }
+
+  .third {
+    color: transparent;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    font-size: 30px;
+    -webkit-transition: text-shadow 2.0 ease-out; 
+    -moz-transition: text-shadow 2.0 ease-out; 
+    -ms-transition: text-shadow 2.0 ease-out; 
+    -o-transition: text-shadow 2.0 ease-out; 
+    transition: text-shadow 2.0 ease-out;
+    font-family: "Woodland-Ultralight";
+    text-align: center;
+  }
+  .third:hover {
+    text-shadow: 0 0 0 rgb(255, 255, 255);
+    -webkit-transition: text-shadow 0.5s; 
+    -moz-transition: text-shadow 0.5s; 
+    -ms-transition: text-shadow 0.5s; 
+    -o-transition: text-shadow 0.5s; 
+    transition: text-shadow 0.5s;
+    cursor: default;
+  }
+
+  .fourth {
+    color: transparent;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    font-size: 30px;
+    -webkit-transition: text-shadow 2.0 ease-out; 
+    -moz-transition: text-shadow 2.0 ease-out; 
+    -ms-transition: text-shadow 2.0 ease-out; 
+    -o-transition: text-shadow 2.0 ease-out; 
+    transition: text-shadow 2.0 ease-out;
+    font-family: "Woodland-Ultralight";
+    text-align: center;
+  }
+  .fourth:hover {
+    text-shadow: 0 0 0 rgb(255, 255, 255);
+    -webkit-transition: text-shadow 0.5s; 
+    -moz-transition: text-shadow 0.5s; 
+    -ms-transition: text-shadow 0.5s; 
+    -o-transition: text-shadow 0.5s; 
+    transition: text-shadow 0.5s;
+    cursor: default;
+  }
+
+  .fifth {
+    color: transparent;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    font-size: 30px;
+    -webkit-transition: text-shadow 2.0 ease-out; 
+    -moz-transition: text-shadow 2.0 ease-out; 
+    -ms-transition: text-shadow 2.0 ease-out; 
+    -o-transition: text-shadow 2.0 ease-out; 
+    transition: text-shadow 2.0 ease-out;
+    font-family: "Woodland-Ultralight";
+    text-align: center;
+  }
+  .fifth:hover {
+    text-shadow: 0 0 0 rgb(255, 255, 255);
+    -webkit-transition: text-shadow 0.5s; 
+    -moz-transition: text-shadow 0.5s; 
+    -ms-transition: text-shadow 0.5s; 
+    -o-transition: text-shadow 0.5s; 
+    transition: text-shadow 0.5s;
+    cursor: default;
+  }
+
+  .link {
+    color: white;
+    font-family: "Mori-Semibold";
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    margin-top: 7%;
+    margin-right: 1%;
+  }

@@ -3,13 +3,20 @@
     src: url(fonts/Woodland-Ultralight.otf);
 }
 
+@font-face {
+    font-family: 'Mori-Semibold';
+    src: url(fonts/Mori-Semibold.otf);
+  }
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Woodland-Ultralight";
+
 
 }
+
+
 
 h2{
     position: relative;
@@ -18,12 +25,10 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Woodland-Ultralight";
 }
 
-h3 {
-    font-family: "Woodland-Ultralight";
-    color: white;
-}
+
 
 h2 {
     color: white;
@@ -32,7 +37,19 @@ h2 {
     text-align: center;
     padding-left: 10em;
     padding-right: 10em;
+    font-family: "Woodland-Ultralight";
 }
+
+.link {
+    color: white;
+    font-family: "Mori-Semibold";
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    margin-top: 60%;
+    z-index: 2;
+
+  }
 
 
 .light{
