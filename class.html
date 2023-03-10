@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        fetch('class.json')
+            .then(response => response.json())
+            .then(data => {
+                // Get the list element
+                const list = document.getElementById('list');
+              
+                // Loop through the data and add each item to the list
+                data.forEach(item => {
+                const li = document.createElement('li');
+                const a = document.createElement('a');
+
+                // Set the text content and href attributes for the link
+                a.textContent = item.Name;
+                a.href = "https://" + item.Github + ".github.io";
+
+
+                // Add the link to the list item and the list item to the list
+                li.appendChild(a);
+                list.appendChild(li);
+                });
+            })
+
+    </script>
+    <style>
+    
+    </style>
+</head>
+<body>
+    <ul id="list">
+    </ul>
+    
+</body>
+</html>
