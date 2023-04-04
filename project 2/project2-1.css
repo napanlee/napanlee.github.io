@@ -1,0 +1,246 @@
+body {
+    background-color: rgb(242, 235, 207);
+}
+
+
+@font-face {
+    font-family: 'Editorial-Old';
+    src: url(fonts/Editorial-Old.otf);
+  }
+  
+  @font-face {
+    font-family: 'Fraktion-Mono-Regular';
+    src: url(fonts/FraktionMono-Regular.otf);
+  }
+
+  @font-face {
+    font-family: 'Fraktion-Mono-Bold';
+    src: url(fonts/FraktionMono-Bold.otf);
+  }
+
+.title {
+    font-family: "Editorial-Old";
+    font-size: 48px;
+    margin-top: 0;
+    display: inline-flex;
+    margin-left: 15px;
+}
+
+.buttons {
+    float: right;
+    position: relative;
+}
+
+.nav1 {
+    font-family: "Editorial-Old";
+    font-size: 30px;
+    padding: 0.2em 1em;
+    margin: 0.5em;
+    border-radius: 3.5em;
+    display: inline-flex;
+    background: rgb(242, 235, 207);
+    border-color: black;
+   
+}
+
+.nav1:hover {
+    background: rgb(23, 23, 23);
+    border-color: white;
+    color: white; 
+}
+
+.nav2 {
+    font-family: "Editorial-Old";
+    font-size: 30px;
+    padding: 0.2em 1em;
+    margin: 0.5em;
+    border-radius: 3.5em;
+    display: inline-flex;
+    background: rgb(242, 235, 207);
+    border-color: black;
+   
+}
+
+.nav2:hover {
+    background: rgb(23, 23, 23);
+    border-color: white;
+    color: white; 
+}
+
+.nav3 {
+    font-family: "Editorial-Old";
+    font-size: 30px;
+    padding: 0.2em 1em;
+    margin: 0.5em;
+    border-radius: 3.5em;
+    display: inline-flex;
+    background: rgb(242, 235, 207);
+    border-color: black;
+   
+}
+
+.nav3:hover {
+    background: rgb(23, 23, 23);
+    border-color: white;
+    color: white; 
+}
+
+.line1 {
+    margin-top: -40px;
+}
+
+.name {
+    font-family: "Editorial-Old";
+    font-size: 1.5vw;
+    margin-left: 40px;
+    margin-top: -5px;
+}
+
+.line2 {
+    margin-top: -25px;
+}
+
+.image{
+  max-width: 100%;
+  height: auto;
+  display: table;
+  margin: 0 auto;
+}
+
+.line3 {
+    margin-top: 45px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 250px; 
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .title1 {
+    font-family: "Fraktion-Mono-Bold";
+    text-decoration: underline;
+    font-size: 20px;
+    margin-left: 4%;
+  }
+
+  .title2 {
+    font-family: "Fraktion-Mono-Bold";
+    text-decoration: underline;
+    font-size: 20px;
+  }
+
+  .description {
+    font-family: "Fraktion-Mono-Regular";
+    margin-left: 4%;
+    margin-right: 5%;
+  }
+
+  .details {
+    font-family: "Fraktion-Mono-Regular";
+    margin-right: 5%;
+  }
+
+  .tags {
+    margin-left: 2.5%;
+}
+
+.tag1 {
+    font-family: "Fraktion-Mono-Bold";
+    font-size: 12px;
+    padding: 0.2em 1em;
+    margin: 0.5em;
+    border-radius: 1em;
+    display: inline-flex;
+    background: white;
+    border-color: black;
+   
+}
+
+.tag1:hover {
+    background: rgb(186, 199, 92);
+    border-color: rgb(0, 0, 0);
+    
+}
+
+.tag2 {
+    font-family: "Fraktion-Mono-Bold";
+    font-size: 12px;
+    padding: 0.2em 1em;
+    margin: 0.5em;
+    border-radius: 1em;
+    display: inline-flex;
+    background: white;
+    border-color: black;
+   
+}
+
+.tag2:hover {
+    background: rgb(92, 142, 199);
+    border-color: rgb(0, 0, 0);
+    
+}
+
+.tag3 {
+    font-family: "Fraktion-Mono-Bold";
+    font-size: 12px;
+    padding: 0.2em 1em;
+    margin: 0.5em;
+    border-radius: 1em;
+    display: inline-flex;
+    background: white;
+    border-color: black;
+   
+}
+
+.tag3:hover {
+    background: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
+    color: white;
+    
+}
+
+@media only screen and (max-width: 800px) {
+  .title {
+  font-size: 35px;
+  text-align: left;
+  }
+
+  .title1 {
+    font-size: 15px;
+  }
+
+  .title2 {
+    font-size: 15px;
+  }
+
+
+  .nav1, .nav2, .nav3 {
+    font-family: "Editorial-Old";
+    font-size: 15px;
+    padding: 0.2em 1em;
+    margin: 0.5em;
+    border-radius: 3.5em;
+    display:inline-flex;
+    background: rgb(242, 235, 207);
+    border-color: black;
+    margin: auto;
+    
+  }
+
+}
+
+
+/* CREATE FLEXBOX FOR TITLE AND BUTTONS (PUT BUTTON INTO CONTAINER) 
+MAKE RESPONSIVE WHERE TWO SQUARES BECOME 1

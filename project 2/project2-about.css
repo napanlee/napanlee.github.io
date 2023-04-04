@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(237, 229, 199);
+}
+
+@font-face {
+    font-family: 'Editorial-Old';
+    src: url(fonts/Editorial-Old.otf);
+  }
+  
+  @font-face {
+    font-family: 'Fraktion-Mono-Regular';
+    src: url(fonts/FraktionMono-Regular.otf);
+  }
+
+  @font-face {
+    font-family: 'Fraktion-Mono-Bold';
+    src: url(fonts/FraktionMono-Bold.otf);
+  }
+
+  .title {
+    font-family: "Editorial-Old";
+    font-size: 48px;
+    margin-top: 0;
+    display: inline-flex;
+    margin-left: 15px;
+}
+
+.buttons {
+    float: right;
+    position: relative;
+}
+
+.nav1 {
+    font-family: "Editorial-Old";
+    font-size: 25px;
+    padding: 0.2em 1em;
+    margin: 0.5em;
+    border-radius: 3.5em;
+    display: inline-flex;
+    background: rgb(237, 229, 199);
+    border-color: black;
+   
+}
+
+.nav1:hover {
+    background: rgb(23, 23, 23);
+    border-color: white;
+    color: white; 
+}
+
+.nav2 {
+    font-family: "Editorial-Old";
+    font-size: 25px;
+    padding: 0.2em 1em;
+    margin: 0.5em;
+    border-radius: 3.5em;
+    display: inline-flex;
+    background: rgb(237, 229, 199);
+    border-color: black;
+   
+}
+
+.nav2:hover {
+    background: rgb(23, 23, 23);
+    border-color: white;
+    color: white; 
+}
+
+.nav3 {
+    font-family: "Editorial-Old";
+    font-size: 25px;
+    padding: 0.2em 1em;
+    margin: 0.5em;
+    border-radius: 3.5em;
+    display: inline-flex;
+    background: rgb(237, 229, 199);
+    border-color: black;
+   
+}
+
+.nav3:hover {
+    background: rgb(23, 23, 23);
+    border-color: white;
+    color: white; 
+}
+
+.line1 {
+    margin-top: -40px;
+}
+
+.name {
+    font-family: "Editorial-Old";
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: -5px;
+}
+
+.line2 {
+    margin-top: -25px;
+}
+
+.description {
+    font-family: "Fraktion-Mono-Regular";
+    margin-left: 40px;
+}

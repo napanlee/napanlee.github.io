@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Fraktion-Mono-Regular';
+    src: url(fonts/FraktionMono-Regular.otf);
+  }
+
+  @font-face {
+    font-family: 'Fraktion-Mono-Bold';
+    src: url(fonts/FraktionMono-Bold.otf);
+  }
+
+
+body {
+    background-color: rgb(243, 239, 227);
+}
+
+.title1 {
+    font-family: 'Fraktion-Mono-Bold';
+    font-size: 80px;
+    margin-top: -20px;
+    margin-left: 20px;
+    display: inline-flex;
+    margin-bottom: 0px;
+}
+
+.title2 {
+    font-family: 'Fraktion-Mono-Regular';
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: -10px;
+  
+}
+
+.buttons {
+    float: right;
+    float: top;
+}
+
+.nav1 {
+    font-family: "Fraktion-Mono-Regular";
+    font-size: 15px;
+    padding: 0.2em 1em;
+    margin: 0.5em;
+    border-radius: 3.5em;
+    display: inline-flex;
+    background: rgb(243, 239, 227);
+    border-color: black;
+
+   
+}
+
+.nav1:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0); 
+}
+
+.nav2 {
+    font-family: "Fraktion-Mono-Regular";
+    font-size: 15px;
+    padding: 0.2em 1em;
+    margin: 0.5em;
+    border-radius: 3.5em;
+    display: inline-flex;
+    background: rgb(243, 239, 227);
+    border-color: black;
+   
+}
+
+.nav2:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0); 
+}
+
+.nav3 {
+    font-family: "Fraktion-Mono-Regular";
+    font-size: 15px;
+    padding: 0.2em 1em;
+    margin: 0.5em;
+    border-radius: 3.5em;
+    display: inline-flex;
+    background: rgb(243, 239, 227);
+    border-color: black;
+   
+}
+
+.nav3:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0); 
+}
+
+.box2{
+    width: 1300px;
+    height: 75px;
+    border: 3px solid black;
+    margin: auto;
+    width: 50%;
+    background-color: rgb(235, 191, 78);
+    font-family: 'Fraktion-Mono-Bold';
+    text-align: center;
+    font-size: 40px;
+    
+    }
+
+.table {
+    width: 1300px;
+    height: 75px;
+    border: 3px solid black;
+    margin: auto;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.b1 {
+    background-color: rgb(235, 191, 78);
+    font-family: 'Fraktion-Mono-Bold';
+    text-align: center;
+    font-size: 40px;
+    border: 3px solid black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.b2 {
+
+    font-family: 'Fraktion-Mono-Bold';
+    text-align: center;
+    font-size: 40px;
+    border: 3px solid black;
+}
+
+.b2 img{
+    max-width: 50%;
+    max-height: auto;
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.description {
+
+    font-family: 'Fraktion-Mono-Regular';
+    text-align: left;
+    font-size: 15px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 65%;
+    
+}
+.details {
+
+    font-family: 'Fraktion-Mono-Regular';
+    text-align: left;
+    font-size: 15px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
