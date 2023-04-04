@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="jsontest.css">
+    <title>Pokedex</title>
+    <script>
+    // Load the JSON file named pokemon.json
+    fetch('jsontest.json')
+    .then(response => response.json())
+    .then(data => {
+        // Access the div element
+        const pokedex = document.getElementById('pokedex');
+                
+        // Loop through the data and add each item to the div
+        data.forEach(item => {
+        const div = document.createElement('div');
+        const p = document.createElement('p');
+        const h1 = document.createElement('h1');
+        const img = document.createElement('img');
+        const audio = document.createElement('audio');
+
+        // Set the text content and href attributes for the link
+        p.textContent = item.title;
+        h1.textContent = item.number;
+        img.src =  item.images;
+
+
+        audio.src = "audio/" + item.audio;
+
+        /* 
+         * Onclick function
+         * whenever a image is clicked
+         * associated audio will be played
+         */
+        img.onclick = function() {
+            audio.play();
+        }
+        
+        // Add the HTML tags to webpage
+        div.appendChild(img);
+        div.appendChild(p);
+        div.appendChild(audio);
+        pokedex.appendChild(div);
+        });
+    })
+    .catch(error => console.error(error));
+    </script>
+    <style>
+        .flex-container {
+            display: grid;
+	        grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
+            justify-content:space-around;
+            height: 10vh;
+            border: 3px black;
+        }
+    </style>
+</head>
+<body>
+    <div id="pokedex" class="flex-container">
+    </div>
+</body>
+</html>

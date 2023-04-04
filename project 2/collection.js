@@ -13,7 +13,7 @@ const renderItems = (collection) => {
 		listItem.appendChild(itemTitle) // And add it to the `li`!
 
 		const itemImage = document.createElement('img') // And an image
-		itemImage.src = item.posterImage // Set the `src` attribute from the JSON
+		itemImage.src = item.images // Set the `src` attribute from the JSON
 		listItem.appendChild(itemImage) // And add that too
 
 		// add an ID to the list item for unique styling
@@ -22,12 +22,9 @@ const renderItems = (collection) => {
 		// This can get annoying, so we can use “template literals” instead
 		const itemDetails =
 			`
-				<p>📍 Built in <span>${item.location}</span></p>
-				<p>✍️ Designed by ${item.architect}</p>
-				<details>
-					<summary>Read more</summary>
-					<p>${item.description}</p>
-				</details>
+				<p>${item.number}</span></p>
+
+
 			`
 		listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
 

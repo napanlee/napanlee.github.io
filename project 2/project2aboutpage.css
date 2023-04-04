@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Fraktion-Mono-Regular';
+    src: url(fonts/FraktionMono-Regular.otf);
+  }
+
+  @font-face {
+    font-family: 'Fraktion-Mono-Bold';
+    src: url(fonts/FraktionMono-Bold.otf);
+  }
+
+
+body {
+    background-color: rgb(243, 239, 227);
+}
+
+.title1 {
+    font-family: 'Fraktion-Mono-Bold';
+    font-size: 80px;
+    margin-top: -20px;
+    margin-left: 20px;
+    display: inline-flex;
+    margin-bottom: 0px;
+}
+
+.title2 {
+    font-family: 'Fraktion-Mono-Regular';
+    font-size: 30px;
+    display: inline-flex;
+    margin-left: 20px;
+    margin-top: -10px;
+  
+}
+
+.buttons {
+    float: right;
+    position: relative;
+}
+
+.nav1 {
+    font-family: "Fraktion-Mono-Regular";
+    font-size: 15px;
+    padding: 0.2em 1em;
+    margin: 0.5em;
+    border-radius: 3.5em;
+    display: inline-flex;
+    background: rgb(243, 239, 227);
+    border-color: black;
+
+   
+}
+
+.nav1:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0); 
+}
+
+.nav2 {
+    font-family: "Fraktion-Mono-Regular";
+    font-size: 15px;
+    padding: 0.2em 1em;
+    margin: 0.5em;
+    border-radius: 3.5em;
+    display: inline-flex;
+    background: rgb(243, 239, 227);
+    border-color: black;
+   
+}
+
+.nav2:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0); 
+}
+
+.about {
+    font-family: 'Fraktion-Mono-Regular';
+    text-align: left;
+    font-size: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  
+	.title1 {
+        margin-top: 10px;
+	  font-size: 40px;
+	}
+  
+	.title2 {
+	  font-size: 15px;
+	}
+
+    .buttons {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-right: 25%;
+        margin-left: 25%;
+
+    }
+
+    .about {
+        font-size: 15px;
+    }
+}

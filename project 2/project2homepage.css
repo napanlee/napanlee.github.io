@@ -1,4 +1,3 @@
-
 @media (min-width: 450px) {
   .cards { grid-template-columns: repeat(2, 1fr); }
 }
@@ -8,7 +7,7 @@
 }
 
 @media (min-width: 900px) {
-  .cards { grid-template-columns: repeat(10, 1fr); }
+  .cards { grid-template-columns: repeat(5, 1fr); }
 }
 
 body {
@@ -30,12 +29,22 @@ body {
   src: url(fonts/FraktionMono-Bold.otf);
 }
 
-.title {
-  font-family: "Editorial-Old";
-  font-size: 48px;
-  margin-top: 0;
+.title1 {
+  font-family: 'Fraktion-Mono-Bold';
+  font-size: 80px;
+  margin-top: -20px;
+  margin-left: 20px;
   display: inline-flex;
-  margin-left: 15px;
+  margin-bottom: 0px;
+}
+
+.title2 {
+  font-family: 'Fraktion-Mono-Regular';
+  font-size: 30px;
+  display: inline-flex;
+  margin-left: 20px;
+  margin-top: -10px;
+
 }
 
 .buttons {
@@ -43,58 +52,40 @@ body {
   position: relative;
 }
 
-.nav1 {
-  font-family: "Editorial-Old";
-  font-size: 25px;
-  padding: 0.2em 1em;
-  margin: 0.5em;
-  border-radius: 3.5em;
-  display: inline-flex;
-  background: rgb(242, 235, 207);
-  border-color: black;
- 
-}
-
-.nav1:hover {
-  background: rgb(23, 23, 23);
-  border-color: white;
-  color: white; 
-}
 
 .nav2 {
-  font-family: "Editorial-Old";
-  font-size: 25px;
+  font-family: "Fraktion-Mono-Regular";
+  font-size: 15px;
   padding: 0.2em 1em;
   margin: 0.5em;
   border-radius: 3.5em;
   display: inline-flex;
-  background: rgb(242, 235, 207);
+  background: rgb(243, 239, 227);
   border-color: black;
+  
  
 }
 
 .nav2:hover {
-  background: rgb(23, 23, 23);
-  border-color: white;
-  color: white; 
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0); 
 }
 
 .nav3 {
-  font-family: "Editorial-Old";
-  font-size: 25px;
+  font-family: "Fraktion-Mono-Regular";
+  font-size: 15px;
   padding: 0.2em 1em;
   margin: 0.5em;
   border-radius: 3.5em;
   display: inline-flex;
-  background: rgb(242, 235, 207);
+  background: rgb(243, 239, 227);
   border-color: black;
  
 }
 
 .nav3:hover {
-  background: rgb(23, 23, 23);
-  border-color: white;
-  color: white; 
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0); 
 }
 
 .line1 {
@@ -104,730 +95,235 @@ body {
 
 
 .cards {
-  max-width: auto;
+  max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  gap: 0.1rem;
-    color: white;
-  padding: 1rem;
-  height: 3rem;
+  gap: 0.5rem;
 }
 
 .card1 {
   
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 .card2 {
  
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 .card3 {
  
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 .card4 {
 
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 .card5 {
   
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 .card6 {
   
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 .card7 {
-  
+
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 .card8 {
 
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 .card9 {
 
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 .card10 {
 
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 .card11 {
 
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 .card12 {
 
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 .card13 {
 
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 .card14 {
   
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 .card15 {
 
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 .card16 {
  
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 .card17 {
  
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 .card18 {
  
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 .card19 {
  
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 .card20 {
  
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 .card21 {
 
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 .card22 {
 
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 .card23 {
   
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 .card24 {
   
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 .card25 {
- 
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card26 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card27 {
-  
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card28 {
-  
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card29 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card30 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card31 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card32 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card33 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card34 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card35 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card36 {
-  
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card37 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card38 {
- 
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card39 {
- 
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card40 {
- 
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card41 {
- 
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card42 {
- 
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card43 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card44 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card45 {
-  
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card46 {
-  
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card47 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card48 {
-  
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card49 {
- 
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card50 {
- 
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card51 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card52 {
-  
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card53 {
-  
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card54 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card55 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card56 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card57 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card58 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card59 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card60 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card61 {
-  
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card62 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card63 {
- 
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card64 {
- 
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card65 {
- 
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card66 {
- 
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card67 {
- 
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card68 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card69 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card70 {
-  
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card71 {
-  
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card72 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card73 {
-  
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card74 {
- 
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card75 {
- 
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card76 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card77 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card78 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card79 {
-  
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card80 {
-  
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card81 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card82 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card83 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card84 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card85 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card86 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card87 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card88 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card89 {
-  
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card90 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card91 {
- 
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card92 {
- 
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card93 {
- 
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card94 {
- 
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card95 {
- 
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card96 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card97 {
-
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card98 {
-  
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card99 {
-  
-  color: white;
-  padding: 1rem;
-  height: 3rem;
-}
-
-.card100 {
 
   color: white;
   padding: 1rem;
-  height: 3rem;
+  height: 6rem;
 }
 
 
 .img {
   width: auto;
-  height: 100%;
+  height: 60%;
   object-fit: cover;
   overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 25%;
+  margin-right: 25%;
   display: block;
 }
 
-
+img {
+  filter: gray; 
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all 0.9s ease-in-out;  
+}
 
 img:hover {
-  filter: none;
-    -webkit-filter: grayscale(0);
-    -webkit-transform: scale(2);
-  }
+filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(2);
+}
+
+@media only screen and (max-width: 800px) {
+  
+	.title1 {
+    margin-top: 10px;
+	  font-size: 40px;
+	}
+  
+	.title2 {
+	  font-size: 15px;
+	}
+
+
+    .buttons {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+        margin-right: 33%;
+        margin-left: 33%;
+
+    }
+
+
+    .cards {
+      margin-top: 50px;
+    }
+}
