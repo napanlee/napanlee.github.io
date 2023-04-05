@@ -5,61 +5,136 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="jsontest.css">
-    <title>Pokedex</title>
+    <title>Objects</title>
     <script>
-    // Load the JSON file named pokemon.json
+
     fetch('jsontest.json')
     .then(response => response.json())
     .then(data => {
-        // Access the div element
-        const pokedex = document.getElementById('pokedex');
-                
-        // Loop through the data and add each item to the div
+
+        const objects = document.getElementById('objects');
+        const buttonall = document.getElementById('all');
+        const buttontravel = document.getElementById('travel');
+        const buttonmuseum = document.getElementById('museum');
+        const buttonmovies = document.getElementById('movies');
+        const buttonwristbands = document.getElementById('wristbands');
+        const buttongifts = document.getElementById('gifts');
+        const buttonmisc = document.getElementById('misc');
+
         data.forEach(item => {
         const div = document.createElement('div');
-        const p = document.createElement('p');
-        const h1 = document.createElement('h1');
+        const title = document.createElement('h1');
         const img = document.createElement('img');
-        const audio = document.createElement('audio');
+        const p = document.createElement('p');
 
-        // Set the text content and href attributes for the link
-        p.textContent = item.title;
-        h1.textContent = item.number;
-        img.src =  item.images;
-
-
-        audio.src = "audio/" + item.audio;
-
-        /* 
-         * Onclick function
-         * whenever a image is clicked
-         * associated audio will be played
-         */
-        img.onclick = function() {
-            audio.play();
-        }
+        const buttonArrow = document.createElement('div');
         
-        // Add the HTML tags to webpage
+        const buttonLink = document.createElement('a')
+
+        title.textContent = item.title;
+        img.src = item.images;
+        p.textContent = item.number;
+        
+        buttonLink.href=item.link;
+
+        buttonLink.innerHTML="click here!";
+
+
+        buttonall.addEventListener('click', function(){
+            div.style.display = "block";
+        });
+
+        buttontravel.addEventListener('click', function(){
+            if (item.travelType == 1) {
+                div.style.display = "block";
+            } else {
+                div.style.display = "none";
+            }
+        });
+
+        buttonmuseum.addEventListener('click', function(){
+            if (item.museumType == 1) {
+                div.style.display = "block";
+            } else {
+                div.style.display = "none";
+            }
+        });
+
+        buttonmovies.addEventListener('click', function(){
+            if (item.moviesType == 1) {
+                div.style.display = "block";
+            } else {
+                div.style.display = "none";
+            }
+        });
+
+        buttonwristbands.addEventListener('click', function(){
+            if (item.wristbandsType == 1) {
+                div.style.display = "block";
+            } else {
+                div.style.display = "none";
+            }
+        });
+
+        buttongifts.addEventListener('click', function(){
+            if (item.giftsType == 1) {
+                div.style.display = "block";
+            } else {
+                div.style.display = "none";
+            }
+        });
+
+        buttonmisc.addEventListener('click', function(){
+            if (item.miscType == 1) {
+                div.style.display = "block";
+            } else {
+                div.style.display = "none";
+            }
+        });
+        
+
+        div.appendChild(title);
         div.appendChild(img);
         div.appendChild(p);
-        div.appendChild(audio);
-        pokedex.appendChild(div);
+        objects.appendChild(div); 
+        div.classList.add("item")
+        div.appendChild(buttonArrow);
+        buttonArrow.appendChild(buttonLink);
         });
     })
     .catch(error => console.error(error));
     </script>
     <style>
-        .flex-container {
-            display: grid;
-	        grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
-            justify-content:space-around;
-            height: 10vh;
-            border: 3px black;
+        img {
+            height: 100px;
         }
     </style>
 </head>
 <body>
-    <div id="pokedex" class="flex-container">
+    <p class="title1">KEEPSAKES</p>
+    <p class="title2">A COLLECTION OF OBJECTS<br>NEW YORK, NY</p>
+
+    <div class="buttons">
+        <button onclick="window.location.href='project2homepage.html';" class="nav1" type="button">HOME</button>
+        <button onclick="window.location.href='index.html';" class="nav2" type="button">DATA</button>
+        <button onclick="window.location.href='project2aboutpage.html';" class="nav3" type="button">ABOUT</button>
+    </div>
+
+<div class="filters">
+    <button id="all" class="filter1">ALL</button>
+    <button id="travel" class="filter2">TRAVEL</button>
+    <button id="museum" class="filter3">MUSEUM</button>
+    <button id="movies" class="filter4">MOVIES</button>
+    <button id="wristbands" class="filter5">WRISTBANDS</button>
+    <button id="gifts" class="filter6">GIFTS</button>
+    <button id="misc" class="filter7">MISC</button>
+</div>
+    
+<div>
+    <div id="objects" class="flex-container">
+</div>
+    
+   
     </div>
 </body>
 </html>

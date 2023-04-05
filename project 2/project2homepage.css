@@ -1,4 +1,4 @@
-@media (min-width: 450px) {
+@media (min-width: 400px) {
   .cards { grid-template-columns: repeat(2, 1fr); }
 }
 
@@ -317,8 +317,8 @@ filter: none;
         justify-content: center;
         align-items: center;
         margin-bottom: 60px;
-        margin-right: 33%;
-        margin-left: 33%;
+        margin-right: 25%;
+        margin-left: 25%;
 
     }
 

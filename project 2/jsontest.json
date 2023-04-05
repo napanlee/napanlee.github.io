@@ -3,151 +3,351 @@
 	  "id": 1,
 	  "title": "Napan rides the NYC Subway for the first time!",
 	  "images": "images/1.png",
-	  "number": "01/25"
+	  "number": "01/25",
+      "link": "project2-2.html",
+      "allType": 1,
+      "travelType": 1,
+      "museumType": 0,
+      "moviesType": 0,
+      "wristbandsType": 0,
+      "giftsType": 0,
+      "miscType": 0
 	},
 	{
 	  "id": 2,
 	  "title": "Napan goes to The Met for the first time!",
 	  "images": "images/2.png",
-	  "number": "02/25"
+	  "number": "02/25",
+      "link": "project2-3.html",
+      "allType": 1,
+      "travelType": 0,
+      "museumType": 1,
+      "moviesType": 0,
+      "wristbandsType": 0,
+      "giftsType": 0,
+      "miscType": 0
 	},
 	{
 	  "id": 3,
 	  "title": "Napan goes to the MoMA  for the first time!",
 	  "images": "images/3.png",
-	  "number": "03/25"
+	  "number": "03/25",
+      "link": "project2-4.html",
+      "allType": 1,
+      "travelType": 0,
+      "museumType": 1,
+      "moviesType": 0,
+      "wristbandsType": 0,
+      "giftsType": 0,
+      "miscType": 0
 	},
 	{
 	  "id": 4,
 	  "title": "Napan goes to the AMNH!",
 	  "images": "images/4.png",
-	  "number": "04/25"
+	  "number": "04/25",
+      "link": "project2-5.html",
+      "allType": 1,
+      "travelType": 0,
+      "museumType": 1,
+      "moviesType": 0,
+      "wristbandsType": 0,
+      "giftsType": 0,
+      "miscType": 0
 	},
 	{
 	  "id": 5,
 	  "title": "Napan goes to Chicago!",
 	  "images": "images/5.png",
-	  "number": "05/25"
+	  "number": "05/25",
+      "link": "project2-6.html",
+      "allType": 1,
+      "travelType": 1,
+      "museumType": 0,
+      "moviesType": 0,
+      "wristbandsType": 0,
+      "giftsType": 0,
+      "miscType": 0
 	},
 	{
 	  "id": 6,
 	  "title": "Napan gets covid!",
 	  "images": "images/6.png",
-	  "number": "06/25"
+	  "number": "06/25",
+      "link": "project2-7.html",
+      "allType": 1,
+      "travelType": 0,
+      "museumType": 0,
+      "moviesType": 0,
+      "wristbandsType": 0,
+      "giftsType": 0,
+      "miscType": 1
 	},
 	{
 	  "id": 7,
 	  "title": "Napan turns 19!",
 	  "images": "images/7.png",
-	  "number": "07/25"
+	  "number": "07/25",
+      "link": "project2-8.html",
+      "allType": 1,
+      "travelType": 0,
+      "museumType": 0,
+      "moviesType": 0,
+      "wristbandsType": 0,
+      "giftsType": 1,
+      "miscType": 0
 	},
 	{
 	  "id": 8,
 	  "title": "Napan goes to see \"Black Panther 2\"",
 	  "images": "images/8.png",
-	  "number": "08/25"
+	  "number": "08/25",
+      "link": "project2-9.html",
+      "allType": 1,
+      "travelType": 0,
+      "museumType": 0,
+      "moviesType": 1,
+      "wristbandsType": 0,
+      "giftsType": 0,
+      "miscType": 0
 	},
 	{
 	  "id": 9,
 	  "title": "Napan goes to see \"A Knock at the Cabin\"",
 	  "images": "images/9.png",
-	  "number": "09/25"
+	  "number": "09/25",
+      "link": "project2-10.html",
+      "allType": 1,
+      "travelType": 0,
+      "museumType": 0,
+      "moviesType": 1,
+      "wristbandsType": 0,
+      "giftsType": 0,
+      "miscType": 0
 	},
 	{
 	  "id": 10,
 	  "title": "Napan goes skiing in the States!",
 	  "images": "images/10.png",
-	  "number": "10/25"
+	  "number": "10/25",
+      "link": "project2-11.html",
+      "allType": 1,
+      "travelType": 1,
+      "museumType": 0,
+      "moviesType": 0,
+      "wristbandsType": 0,
+      "giftsType": 0,
+      "miscType": 0
 	},
 	{
 	  "id": 11,
 	  "title": "Napan helps his friends move into their dorm!",
 	  "images": "images/11.png",
-	  "number": "11/25"
+	  "number": "11/25",
+      "link": "project2-12.html",
+      "allType": 1,
+      "travelType": 0,
+      "museumType": 0,
+      "moviesType": 0,
+      "wristbandsType": 1,
+      "giftsType": 0,
+      "miscType": 1
 	},
 	{
 	  "id": 12,
 	  "title": "Napan goes to Rolling Loud!",
 	  "images": "images/12.png",
-	  "number": "12/25"
+	  "number": "12/25",
+      "link": "project2-13.html",
+      "allType": 1,
+      "travelType": 0,
+      "museumType": 0,
+      "moviesType": 0,
+      "wristbandsType": 1,
+      "giftsType": 0,
+      "miscType": 0
 	},
 	{
 	  "id": 13,
 	  "title": "Napan turns 20! (part 1)",
 	  "images": "images/13.png",
-	  "number": "13/25"
+	  "number": "13/25",
+      "link": "project2-14.html",
+      "allType": 1,
+      "travelType": 0,
+      "museumType": 0,
+      "moviesType": 0,
+      "wristbandsType": 0,
+      "giftsType": 1,
+      "miscType": 0
 	},
 	{
 	  "id": 14,
 	  "title": "Napan turns 20! (part 2)",
 	  "images": "images/14.png",
-	  "number": "14/25"
+	  "number": "14/25",
+      "link": "project2-15.html",
+      "allType": 1,
+      "travelType": 0,
+      "museumType": 0,
+      "moviesType": 0,
+      "wristbandsType": 0,
+      "giftsType": 1,
+      "miscType": 0
 	},
 	{
 	  "id": 15,
 	  "title": "Napan gets scammed!",
 	  "images": "images/15.png",
-	  "number": "15/25"
+	  "number": "15/25",
+      "link": "project2-16.html",
+      "allType": 1,
+      "travelType": 0,
+      "museumType": 0,
+      "moviesType": 0,
+      "wristbandsType": 0,
+      "giftsType": 0,
+      "miscType": 1
 	},
 	{
 	  "id": 16,
 	  "title": "Napan attends a workshop hosted by Puma and Nicole Mclaughlin!",
 	  "images": "images/16.png",
-	  "number": "16/25"
+	  "number": "16/25",
+      "link": "project2-17.html",
+      "allType": 1,
+      "travelType": 0,
+      "museumType": 0,
+      "moviesType": 0,
+      "wristbandsType": 1,
+      "giftsType": 0,
+      "miscType": 1
 	},
 	{
 	  "id": 17,
 	  "title": "Napan visits Pittsburgh!",
 	  "images": "images/17.png",
-	  "number": "17/25"
+	  "number": "17/25",
+      "link": "project2-18.html",
+      "allType": 1,
+      "travelType": 1,
+      "museumType": 0,
+      "moviesType": 0,
+      "wristbandsType": 0,
+      "giftsType": 0,
+      "miscType": 0
 	},
 	{
 	  "id": 18,
 	  "title": "Napan gets his keys to his first apartment!",
 	  "images": "images/18.png",
-	  "number": "18/25"
+	  "number": "18/25",
+      "link": "project2-19.html",
+      "allType": 1,
+      "travelType": 0,
+      "museumType": 0,
+      "moviesType": 0,
+      "wristbandsType": 0,
+      "giftsType": 0,
+      "miscType": 1
 	},
 	{
 	  "id": 19,
 	  "title": "Napan goes out to dinner with friends!",
 	  "images": "images/19.png",
-	  "number": "19/25"
+	  "number": "19/25",
+      "link": "project2-20.html",
+      "allType": 1,
+      "travelType": 0,
+      "museumType": 0,
+      "moviesType": 0,
+      "wristbandsType": 0,
+      "giftsType": 0,
+      "miscType": 1
 	},
 	{
 	  "id": 20,
 	  "title": "Napan goes to the Dominican Republic!",
 	  "images": "images/20.png",
-	  "number": "20/25"
+	  "number": "20/25",
+      "link": "project2-21.html",
+      "allType": 1,
+      "travelType": 1,
+      "museumType": 0,
+      "moviesType": 0,
+      "wristbandsType": 0,
+      "giftsType": 0,
+      "miscType": 0
 	},
 	{
 	  "id": 21,
 	  "title": "Napan gets robbed!",
 	  "images": "images/21.png",
-	  "number": "21/25"
+	  "number": "21/25",
+      "link": "project2-22.html",
+      "allType": 1,
+      "travelType": 0,
+      "museumType": 0,
+      "moviesType": 0,
+      "wristbandsType": 0,
+      "giftsType": 0,
+      "miscType": 1
 	},
 	{
 	  "id": 22,
 	  "title": "Napan shaves his head!",
 	  "images": "images/22.png",
-	  "number": "22/25"
+	  "number": "22/25",
+      "link": "project2-23.html",
+      "allType": 1,
+      "travelType": 0,
+      "museumType": 0,
+      "moviesType": 0,
+      "wristbandsType": 0,
+      "giftsType": 0,
+      "miscType": 1
 	},
 	{
 	  "id": 23,
 	  "title": "Napan goes to The Nogucchi Museum for the first time!",
 	  "images": "images/23.png",
-	  "number": "23/25"
+	  "number": "23/25",
+      "link": "project2-24.html",
+      "allType": 1,
+      "travelType": 0,
+      "museumType": 1,
+      "moviesType": 0,
+      "wristbandsType": 0,
+      "giftsType": 0,
+      "miscType": 0
 	},
 	{
 	  "id": 24,
 	  "title": "Napan finishes his first semester!",
 	  "images": "images/24.png",
-	  "number": "24/25"
+	  "number": "24/25",
+      "link": "project2-25.html",
+      "allType": 1,
+      "travelType": 0,
+      "museumType": 0,
+      "moviesType": 0,
+      "wristbandsType": 0,
+      "giftsType": 1,
+      "miscType": 0
 	},
 	{
 	  "id": 25,
 	  "title": "Napan's friends visit NY!",
 	  "images": "images/25.png",
-	  "number": "25/25"
+	  "number": "25/25",
+      "link": "project2-26.html",
+      "allType": 1,
+      "travelType": 0,
+      "museumType": 0,
+      "moviesType": 0,
+      "wristbandsType": 0,
+      "giftsType": 1,
+      "miscType": 0
 	}
    ]
 

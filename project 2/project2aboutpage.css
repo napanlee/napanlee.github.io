@@ -71,13 +71,20 @@ body {
     color: rgb(0, 0, 0); 
 }
 
+
+.bigabout{
+    font-family: "Fraktion-Mono-Regular";
+    font-size: 30px;
+  }
+
 .about {
     font-family: 'Fraktion-Mono-Regular';
     text-align: left;
-    font-size: 50px;
-    margin-left: 5%;
-    margin-right: 5%;
-}
+    font-size: 30px;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+} 
 
 
 
@@ -104,6 +111,8 @@ body {
     }
 
     .about {
-        font-size: 15px;
+        font-size: 17px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
