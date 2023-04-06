@@ -167,17 +167,21 @@ p {
     justify-content: center;
     align-items: center;
     margin-top: 0;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
 }
 .item img {
     grid-area: 2 / 1 / 4 / 6;
     height: 130px;
     width: auto;
+
     
 }
 
 .item p {
     grid-area: 4 / 1 / 5 / 6;
     text-align: left;
+    margin-left: 5%;
 
 }
 
@@ -185,23 +189,13 @@ p {
     grid-area: 5 / 1 / 6 / 6;
     border-top: solid;
     font-family: 'Fraktion-Mono-Regular';
-    color: black;
-    display: flex;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 0;
-    
+    text-align: center;
+    background-color: white;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    text-decoration: black;
 }
 
-
-
-
-
-/*
-.div1 { grid-area: 1 / 1 / 2 / 6; }
-.div2 { grid-area: 2 / 1 / 5 / 6; }
-.div3 { grid-area: 5 / 1 / 6 / 5; }
-.div4 { grid-area: 5 / 5 / 6 / 6; }
-*/
 
 
