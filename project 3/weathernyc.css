@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'Formula-Medium';
+  src: url(fonts/Formula-Medium.otf);
+}
+@font-face {
+  font-family: 'Formula-Bold';
+  src: url(fonts/Formula-Bold.otf);
+}
+
+@font-face {
+  font-family: 'Editorial-New';
+  src: url(fonts/EditorialNew-Italic.otf);
+}
+
+body {
+  background: linear-gradient(#DA4F01, #4296C6);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.button1 {
+  background-color:#EEECE5;
+  border:3px solid #151515;
+  display:inline-block;
+  margin-top: 20px;
+  margin-left: 3%;
+  cursor:pointer;
+  color:#151515;
+  font-family:'Formula-Bold';
+  font-size:17px;
+  padding:5px 18px 2px;
+  text-decoration:none;
+}
+.button1:hover {
+  background-color:#151515;
+  color:#EEECE5;
+  border-color: #151515;
+}
+.button1:active {
+  position:relative;
+  top:1px;
+}
+
+.title {
+  font-family: 'Formula-Bold';
+  font-size: 80px;
+  color: white;
+  -webkit-text-stroke: 2px black; 
+  margin-left: 3%;
+  margin-bottom: 0%;
+}
+
+.location{
+  font-family: 'Formula-Bold';
+  font-size: 20px;
+  color: white;
+  margin-left: 3%;
+  margin-top: 1px;
+}
+
+.temperature {
+  font-family: 'Formula-Medium';
+	font-size: 35px;
+	font-weight: bold;
+	margin-bottom: 10px;
+  margin-left: 3%;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.description {
+  font-family: 'Formula-Medium';
+	font-size: 35px;
+	font-weight: bold;
+  margin-left: 3%;
+  color: white;
+  text-align: center;
+}
+
+.goodday {
+  font-family: 'Editorial-New';
+  font-size: 30px;
+  position: absolute;
+  top: 90%;
+  left: 82%;
+  text-align: right;
+}
+
+a{
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+img { 
+    
+  height:100px; 
+  width:auto;  
+  position: absolute; 
+}
+

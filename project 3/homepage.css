@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'Formula-Medium';
+    src: url(fonts/Formula-Medium.otf);
+  }
+@font-face {
+    font-family: 'Formula-Bold';
+    src: url(fonts/Formula-Bold.otf);
+  }
+@font-face {
+    font-family: 'Editorial-New';
+    src: url(fonts/EditorialNew-Italic.otf);
+  }
+  
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    animation: colorFade 10s ease-in-out infinite alternate;
+  }
+  
+  @keyframes colorFade {
+    0%{
+        background: linear-gradient(#DAD5C9, #DA4F01);
+    }
+    5%{
+        background: linear-gradient(#DAD5C9, #CB5615);
+    }
+    10%{
+        background: linear-gradient(#DAD5C9, #BC5D28);
+    }
+    15%{
+        background: linear-gradient(#DAD5C9, #AC643C);
+    }
+    20%{
+        background: linear-gradient(#DAD5C9, #9D6B50);
+    }
+    25%{
+        background: linear-gradient(#DAD5C9, #8E7364);
+    }
+    30%{
+        background: linear-gradient(#DAD5C9, #7F7A77);
+    }
+    35%{
+        background: linear-gradient(#DAD5C9, #70818B);
+    }
+    40%{
+        background: linear-gradient(#DAD5C9, #60889F);
+    }
+    45%{
+        background: linear-gradient(#DAD5C9, #518FB2);
+    }
+    50%{
+        background: linear-gradient(#DAD5C9, #4296C6);
+    }
+    55%{
+        background: linear-gradient(#DAD5C9, #518FB2);
+    }
+    60%{
+        background: linear-gradient(#DAD5C9, #60889F);
+    }
+    65%{
+        background: linear-gradient(#DAD5C9, #70818B);
+    }
+    70%{
+        background: linear-gradient(#DAD5C9, #7F7A77);
+    }
+    75%{
+        background: linear-gradient(#DAD5C9, #8E7364);
+    }
+    80%{
+        background: linear-gradient(#DAD5C9, #9D6B50);
+    }
+    85%{
+        background: linear-gradient(#DAD5C9, #AC643C);
+    }
+    90%{
+        background: linear-gradient(#DAD5C9, #BC5D28);
+    }
+    95%{
+        background: linear-gradient(#DAD5C9, #CB5615);
+    }
+    100%{
+        background: linear-gradient(#DAD5C9, #DA4F01);
+    }
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60pt;
+    font-family: 'Formula-Bold';
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+  }
+
+  p {
+    position: absolute;
+    font-family: 'Editorial-New';
+    top: 85%;
+    left: 85%;
+    font-size: 35pt;
+    text-align: right;
+  }
+
+  a{
+    color: black;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+  @media only screen and (max-width: 800px) {
+  
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25pt;
+    font-family: 'Formula-Bold';
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+a {
+    position: absolute;
+    font-family: 'Editorial-New';
+    font-size: 15pt;
+    text-align: center;
+  }
+
+}

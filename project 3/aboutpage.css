@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Formula-Medium';
+    src: url(fonts/Formula-Medium.otf);
+  }
+@font-face {
+    font-family: 'Formula-Bold';
+    src: url(fonts/Formula-Bold.otf);
+  }
+
+  /*body {
+    height: 100%;
+    overflow-y: hidden;
+ } */
+
+img {
+  position: absolute;
+}
+
+  p{
+    font-family: 'Formula-Medium';
+    text-align: left;
+    color: #EEECE5;
+    padding-right: 40%;
+    padding-left: 3%;
+    font-size: 30px;
+    padding-top: 3%;
+  }
+
+  .button1 {
+    background-color:#EEECE5;
+    border:3px solid #151515;
+    display:inline-block;
+    margin-top: 20px;
+    margin-left: 3%;
+    cursor:pointer;
+    color:#151515;
+    font-family:'Formula-Bold';
+    font-size:17px;
+    padding:5px 18px 2px;
+    text-decoration:none;
+  }
+  .button1:hover {
+    background-color:#151515;
+    color:#EEECE5;
+    border-color: #151515;
+  }
+  .button1:active {
+    position:relative;
+    top:1px;
+  }
+
+  .button2 {
+    background-color:#EEECE5;
+    border:3px solid #151515;
+    display:inline-block;
+    margin-top: 20px;
+    margin-left: 1%;
+    cursor:pointer;
+    color:#151515;
+    font-family:'Formula-Bold';
+    font-size:17px;
+    padding:5px 18px 2px;
+    text-decoration:none;
+  }
+  .button2:hover {
+    background-color:#151515;
+    color:#EEECE5;
+    border-color: #151515;
+  }
+  .button2:active {
+    position:relative;
+    top:1px;
+  }
+
+  a{
+    color: #EEECE5;
+  }
+
+
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #151515;
+  }
+  
+  .draggable {
+    padding: 10px;
+    position: absolute;
+    cursor: move;
+   
+  }
+  
+  img { 
+    
+      height:100px; 
+      width:auto;   
+  }
+
+
+  @media only screen and (max-width: 800px) {
+  
+    p {
+      font-family: 'Formula-Medium';
+      text-align: left;
+      padding-right: 40%;
+      padding-left: 3%;
+      font-size: 15px;
+      padding-top: 3%;
+    }
+    
+    }
+
+

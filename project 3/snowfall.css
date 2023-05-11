@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Formula-Medium';
+    src: url(fonts/Formula-Medium.otf);
+  }
+  @font-face {
+    font-family: 'Formula-Bold';
+    src: url(fonts/Formula-Bold.otf);
+  }
+  
+  html, body {
+      margin: 0;
+      padding: 0;
+      background-color: #EEECE5;
+    }
+    canvas {
+      display: block;
+    }
+  
+.button1 {
+	background-color:#EEECE5;
+	border:3px solid #151515;
+	display:inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+	cursor:pointer;
+	color:#151515;
+	font-family:'Formula-Bold';
+	font-size:17px;
+	padding:5px 18px 2px;
+	text-decoration:none;
+}
+.button1:hover {
+	background-color:#151515;
+    color:#EEECE5;
+    border-color: #151515;
+}
+.button1:active {
+	position:relative;
+	top:1px;
+}
+
+.button3 {
+	background-color:#EEECE5;
+	border:3px solid #151515;
+	display:inline-block;
+    float:right;
+    margin-top: 20px;
+    margin-right: 20px;
+	cursor:pointer;
+	color:#151515;
+	font-family:'Formula-Bold';
+	font-size:17px;
+	padding:5px 18px 2px;
+	text-decoration:none;
+}
+.button3:hover {
+	background-color:#FF5C2B;
+	color:#ffffff ;
+}
+.button3:active {
+	position:relative;
+	top:1px;
+}
