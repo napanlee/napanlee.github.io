@@ -15,23 +15,12 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   numRows = table.getRowCount();
   numCols = table.getColumnCount();
-  //print("rows: " + numRows + "cols: " + numCols)
-  
 
-  //slider
   slider = createSlider(1,365,365,1).position (875,875)
 
-  
-  
-
-
-  
-  //load data
   for(let r =0; r<table.getRowCount(); r++){
     date[r] = table.getString(r,0);
     precipitation[r] = table.getNum(r,4,);
-    //print(date[r] + " "+precipitation[r])
-    
   }
   minMax();
 }
@@ -52,17 +41,12 @@ function draw() {
     let pointy = (size[i]+radius)*sin(radians(ang*i))+diagramY;
     let cirx = radius*cos(radians(ang*i))+diagramX;
     let ciry = radius*sin(radians(ang*i))+diagramY;
-    
-    //drawing the lines
+  
     
     stroke('#4899FF')
     strokeWeight(2.5);
     line(cirx,ciry,pointx,pointy)
     
-    //print(size[i])
-    //print(amt)
-
-    //hover
     let datasize;
     let dis = dist(mouseX,mouseY, pointx,pointy);
     if(dis<3){
@@ -71,7 +55,6 @@ function draw() {
       noStroke();
       circle(pointx,pointy,datasize);
   
-      //drawing the information
       textAlign(CENTER)
       textSize(20);
       fill('#4899FF')
@@ -84,8 +67,7 @@ function draw() {
       text(precipitation[i]+unit,diagramX,diagramY+45);
       
       
-    
-    //drawing the data points, can change shape and color here
+  
     }else{
       fill('#4899FF')
       datasize = 3;

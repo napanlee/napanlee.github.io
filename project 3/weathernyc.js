@@ -1,4 +1,4 @@
-const apiKey = '8d48aceec23b42beaad51954231105'; // Replace with your WeatherAPI API key
+const apiKey = '8d48aceec23b42beaad51954231105';
 const city = 'New York City';
 
 const temperatureEl = document.querySelector('.temperature');

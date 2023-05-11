@@ -1,7 +1,5 @@
-// try playing with this ALERT - 
 $(document).ready(function() {alert("[hello! drag the emojis around and have fun]"); })
 
-// JS files comment with two backslash lines 
 $(document).ready(function() {$("#cloud").draggable(); })
 
 $(document).ready(function() {$("#cloudysun").draggable(); })
