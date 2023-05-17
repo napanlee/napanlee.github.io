@@ -5,9 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+        fetch('class.json')
+            .then(response => response.json())
+            .then(data => {
+                const list = document.getElementById('list');
+
+
+                data.forEach(student => { 
+                const li = document.createElement('li');
+                const a = document.createElement('a');
+
+
+                a.textContent = student.Name;
+                a.href = "http://" + student.Github + ".github.io";
+
+                li.appendChild(a);
+                list.appendChild(li);
+            });
+            })
+    </script>
     <script src="classjson.js"></script>
 </head>
+<style>
+    body{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+    }
+
+    li a{
+        color: rgb(78, 61, 36);
+    }
+    li a:hover{
+        color: rgb(102, 152, 93);
+    }
+</style>
 <body>
-    
+    <ul id="list"></ul>
 </body>
 </html>

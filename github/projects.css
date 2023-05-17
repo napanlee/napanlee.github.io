@@ -69,7 +69,7 @@ body {
 
 .titlep {
     text-align: center;
-    background-color: #CEB287;
+    background-color: #AFCE87;
     padding: 10px;
     flex: 50%;
     font-family: 'Mori-Semibold';
@@ -122,5 +122,60 @@ body {
     margin-right: 35%;
     border:  2px solid black
 }
+
+@media only screen and (max-width: 800px) {
+  
+    .button1, .button2, .button3 {
+      font-size: 15px;
+    }
+
+    .titlep {
+        text-align: center;
+        background-color: #AFCE87;
+        padding: 10px;
+        flex: 50%;
+        font-family: 'Mori-Semibold';
+        margin-left: 15%;
+        margin-right: 15%;
+        border:  2px solid black;
+        font-size: 20px;
+    }
+
+    .project1, .project2, .project3{
+        background-color: #ffffff;
+        padding: 10px;
+        flex: 50%;
+        margin-top: 1%;
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: center;
+        border:  2px solid black
+    }
+    
+    .titlep1, .titlep2, .titlep3{
+        text-align: center;
+        font-family: 'Mori-Semibold';
+        font-size: 20px;
+    }
+    
+    .descriptionp1, .descriptionp2, .descriptionp3 {
+        font-family: 'Mori-Regular';
+        font-size: 15px;
+        margin-left: 3%;
+        margin-right: 3%;
+        text-align: left;
+    }
+    
+    .buttonp1, .buttonp2, .buttonp3{
+        font-family: "EditorialNew-Italic";
+        font-size: 15px;
+        padding: 0.2em 1em;
+        border-radius: 3.5em;
+        margin-bottom: 1%;
+    }
+  
+
+  
+  }
 
 

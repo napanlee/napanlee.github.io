@@ -68,3 +68,20 @@
     text-align: end;
     display: inline-block;
 }
+
+@media only screen and (max-width: 800px) {
+  
+  .introduction {
+    font-size: 56px;
+  }
+
+  .description {
+    font-size: 34px;
+  }
+
+  .button1 {
+    font-size: 15px;
+}
+
+}
+
