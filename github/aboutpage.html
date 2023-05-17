@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="aboutpage.css">
+    <script src="aboutpage.js"></script>
+    <title>About page</title>
+</head>
+<style>
+    .draggable {
+      position: absolute;
+    }
+    </style>
+
+<body>
+    <button onclick="window.location.href='homepage.html';" class="button1" type="button">home</button>
+    <button onclick="window.location.href='projects.html';" class="button2" type="button">projects</button>
+    <button onclick="window.location.href='assignments.html';" class="button3" type="button">assignments</button>
+    <button onclick="window.location.href='aboutpage.html';" class="button4" type="button">about me</button>
+
+    <div class="footer">
+        <p class="lefttext">PUCD 2125/2126</p>
+        <p class="middletext">Parsons School of Design</p>
+        <p class="righttext">Spring 2023</p>
+      </div>
+
+    <p class="p1">
+        Hello! My name is Napan Lee and I am currently a Sophomore studying Communication Design at the Parsons School of Design at The New School. 
+    </p>
+
+    <p class="p2">
+        This website displays all the different projects and assignments I have worked on this spring semester. 
+    </p>
+
+    <p class="p3">
+        I hope you enjoy!
+    </p>
+
+    <body onload="onloadFunction()">
+        <img id="me" src="images/me.png" class="draggable"></div>
+    </body>
+    
+</body>
+</html>

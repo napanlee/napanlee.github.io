@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Mori-Regular';
+    src: url(fonts/Mori-Regular.otf);
+  }
+
+@font-face {
+    font-family: 'Mori-Semibold';
+    src: url(fonts/Mori-SemiBold.otf);
+  }
+
+@font-face {
+    font-family: 'EditorialNew-Italic';
+    src: url(fonts/EditorialNew-Italic.otf);
+  }
+
+body {
+    padding-bottom: 50px;
+}
+
+.footer {
+    font-family: 'Mori-Regular';
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+}
+
+.lefttext {
+    text-align: start;
+    display: inline-block;
+}
+
+.middletext {
+    text-align: center;
+    display: inline-block;
+}
+
+.righttext {
+    text-align: end;
+    display: inline-block;
+}
+
+.button1 {
+    font-family: "EditorialNew-Italic";
+    font-size: 24px;
+    padding: 0.2em 1em;
+    margin-left: 3%;
+    margin-bottom: 5%;
+    border-radius: 3.5em;
+    margin-top: 1%;
+}
+
+.button2, .button3 {
+    font-family: "EditorialNew-Italic";
+    font-size: 24px;
+    padding: 0.2em 1em;
+    margin-left: 1%;
+    margin-bottom: 5%;
+    border-radius: 3.5em;
+    margin-top: 1%;
+}
+
+.assignments {
+    display: flex;
+    flex-direction: column;
+  }
+
+.titlea {
+    text-align: center;
+    background-color: #CEB287;
+    padding: 10px;
+    flex: 100%;
+    font-family: 'Mori-Semibold';
+    margin-left: 35%;
+    margin-right: 35%;
+    border:  2px solid black;
+    font-size: 30px;
+}
+
+.assignment1, .assignment2, .assignment3,.assignment4, .assignment5, .assignment6{
+    background-color: #ffffff;
+    padding: 10px;
+    flex: 50%;
+    margin-top: 1%;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    border:  2px solid black
+}
+
+.titlea1, .titlea2, .titlea3, .titlea4, .titlea5, .titlea6 {
+    text-align: center;
+    font-family: 'Mori-Semibold';
+    font-size: 30px;
+}
+
+.buttona1, .buttona2, .buttona3, .buttona4, .buttona5, .buttona6 {
+    font-family: "EditorialNew-Italic";
+    font-size: 20px;
+    padding: 0.2em 1em;
+    border-radius: 3.5em;
+    margin-bottom: 1%;
+}
