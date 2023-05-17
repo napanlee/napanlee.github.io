@@ -18,28 +18,30 @@ body {
 }
 
 .footer {
-    font-family: 'Mori-Regular';
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
     position: fixed;
-    left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
-    color: white;
+    display: flex;
+    justify-content: space-between;
+   
 }
 
-.lefttext {
-    text-align: start;
-    display: inline-block;
-}
-
-.middletext {
+.center {
     text-align: center;
-    display: inline-block;
+    font-family: 'Mori-Regular';
 }
 
-.righttext {
-    text-align: end;
-    display: inline-block;
+.right {
+    margin-right: 40px;
+    font-family: 'Mori-Regular';
+}
+
+.left {
+    margin-left: 30px;
+    font-family: 'Mori-Regular';
 }
 
 .button1 {
@@ -112,7 +114,7 @@ body {
   
     .titlea {
         text-align: center;
-        background-color: #AFCE87;
+        background-color: #CEB287;
         padding: 10px;
         flex: 50%;
         font-family: 'Mori-Semibold';

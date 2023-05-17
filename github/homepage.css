@@ -21,6 +21,7 @@
     font-family: 'Mori-Regular';
     font-size: 96px;
     margin-left: 3%;
+    margin-top: 15%;
   }
 
   .description {
@@ -44,29 +45,30 @@
 }
 
 .footer {
-    font-family: 'Mori-Regular';
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+ 
 }
 
-.lefttext {
-    text-align: start;
-    display: inline-block;
+.center {
+  text-align: center;
+  font-family: 'Mori-Regular';
 }
 
-.middletext {
-    text-align: center;
-    display: inline-block;
+.right {
+  margin-right: 40px;
+  font-family: 'Mori-Regular';
 }
 
-.righttext {
-    text-align: end;
-    display: inline-block;
+.left {
+  margin-left: 30px;
+  font-family: 'Mori-Regular';
 }
 
 @media only screen and (max-width: 800px) {
