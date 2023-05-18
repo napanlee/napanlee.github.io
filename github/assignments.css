@@ -81,7 +81,7 @@ body {
     font-size: 30px;
 }
 
-.assignment1, .assignment2, .assignment3,.assignment4, .assignment5, .assignment6{
+.assignment1, .assignment2, .assignment3,.assignment4, .assignment5, .assignment6, .assignment7{
     background-color: #ffffff;
     padding: 10px;
     flex: 50%;
@@ -92,13 +92,13 @@ body {
     border:  2px solid black
 }
 
-.titlea1, .titlea2, .titlea3, .titlea4, .titlea5, .titlea6 {
+.titlea1, .titlea2, .titlea3, .titlea4, .titlea5, .titlea6, .titlea7 {
     text-align: center;
     font-family: 'Mori-Semibold';
     font-size: 30px;
 }
 
-.buttona1, .buttona2, .buttona3, .buttona4, .buttona5, .buttona6 {
+.buttona1, .buttona2, .buttona3, .buttona4, .buttona5, .buttona6, .buttona7 {
     font-family: "EditorialNew-Italic";
     font-size: 20px;
     padding: 0.2em 1em;
@@ -124,7 +124,7 @@ body {
         font-size: 20px;
     }
 
-    .assignment1, .assignment2, .assignment3, .assignment4, .assignment5, .assignment6{
+    .assignment1, .assignment2, .assignment3, .assignment4, .assignment5, .assignment6, .assignment7{
         background-color: #ffffff;
         padding: 10px;
         flex: 50%;
@@ -135,13 +135,13 @@ body {
         border:  2px solid black
     }
     
-    .titlea1, .titlea2, .titlea3, .titlea4, .titlea5, .titlea6{
+    .titlea1, .titlea2, .titlea3, .titlea4, .titlea5, .titlea6, .titlea7{
         text-align: center;
         font-family: 'Mori-Semibold';
         font-size: 20px;
     }
     
-    .buttona1, .buttona2, .buttona3, .buttona4, .buttona5, .buttona6{
+    .buttona1, .buttona2, .buttona3, .buttona4, .buttona5, .buttona6, .buttona7{
         font-family: "EditorialNew-Italic";
         font-size: 15px;
         padding: 0.2em 1em;
